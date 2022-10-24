@@ -3,7 +3,7 @@ package p06_Abstract_NestedClass;
 abstract class Plants{
 	abstract void lifeSpan();
 	abstract void eats();
-	void grow() {
+	final void grow() {
 		System.out.println("Every plan grow on Earth");
 	}
 }
