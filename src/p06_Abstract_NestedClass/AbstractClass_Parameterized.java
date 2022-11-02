@@ -7,7 +7,7 @@ abstract class Numbers{
 	Numbers(int num1,int num2){
 	}
 	abstract void note();
-	void print() {
+	final void print() {
 		System.out.println("-------");
 	}
 }

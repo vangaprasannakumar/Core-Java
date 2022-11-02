@@ -1,4 +1,4 @@
-package p09_NL_Array;
+package own;
 
 import java.util.Scanner;
 
@@ -14,18 +14,14 @@ public class Pno {
         System.out.println("Enter the value of n: ");
         int n = in.nextInt();
 
-        for (i = 1; i <= n; i++)
-        {
+        for (i = 1; i <= n; i++){
             int counter=0;
-            for(num =i; num>=1; num--)
-            {
-                if(i%num==0)
-                {
+            for(num =i; num>=1; num--){
+                if(i%num==0){
                     counter = counter + 1;
                 }
             }
-            if (counter ==2)
-            {
+            if (counter ==2){
                 //Appended the Prime number to the String
                 primeNumbers = primeNumbers + i + " ";
             }

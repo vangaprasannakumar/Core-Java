@@ -5,7 +5,7 @@ abstract class PrimarySchool{
 		System.out.println("Everyone Must Wear Uniform");
 	}
 	abstract void input();
-	void show() {
+	final void show() {
 		System.out.println("It's Mandatory");
 	}
 }

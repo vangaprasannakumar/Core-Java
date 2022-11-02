@@ -4,7 +4,7 @@ abstract class Area{
 	double length, breadth;
 	Scanner input = new Scanner(System.in);
 	abstract void printArea();
-	void print() {
+	final void print() {
 		System.out.println("To Calculate Area");
 	}
 }
