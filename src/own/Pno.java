@@ -14,7 +14,7 @@ public class Pno {
         System.out.println("Enter the value of n: ");
         int n = in.nextInt();
 
-        for (i = 1; i <= n; i++){
+        for (i = 0; i <= n; i++){
             int counter=0;
             for(num =i; num>=1; num--){
                 if(i%num==0){
