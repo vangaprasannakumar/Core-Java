@@ -3,6 +3,7 @@ class Student{
 	int id;
 	double marks;
 	static String college;
+	
 }
 public class Variable_Demo {
 	public static void main(String[] args) {

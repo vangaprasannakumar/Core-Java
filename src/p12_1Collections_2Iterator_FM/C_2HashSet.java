@@ -1,12 +1,14 @@
 package p12_1Collections_2Iterator_FM;
 
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Set;
 
 public class C_2HashSet {
 
 	public static void main(String[] args) {
 		Set<Integer> sum = new HashSet<Integer>();
+
 		sum.add(100);
 		sum.add(200);
 		sum.add(300);

@@ -1,10 +1,10 @@
 package p03_Mtypes_MOL;
 class ExamBranch{
 	void form() {
-		System.out.println("Details		: Name: V. Prasanna Kumar, PIN: 19C65A0124, Branch: Civil");
+		System.out.println("Details    :\n\f Name: V. Prasanna Kumar\n\f PIN : 19C65A0124\n\f Branch: Civil");
 	}
 	void submitProof(String id) {
-		System.out.println("ID Number	= "+id);
+		System.out.println("ID Number  : "+id);
 	}
 	String passBook ( ) {
 	    return "Payment Recipt" ;
